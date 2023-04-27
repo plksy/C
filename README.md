@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-//세균 수 구하기 문제
+
 int main()
 {
+
+//세균 수 구하기 문제
+
     // 초기 세균 수
     int bacteria = 10;
 
