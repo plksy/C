@@ -23,9 +23,11 @@ int main()
     
     #include <stdio.h>
     
-//종이 접는 문제
+
 int main()
 {
+//종이 접는 문제
+
     // 초기값 설정
     double area = 1.0;
     int count = 0;
