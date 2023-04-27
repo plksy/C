@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 //세균 수 구하기 문제
 int main()
 {
@@ -18,6 +19,7 @@ int main()
     
     
     #include <stdio.h>
+    
 //종이 접는 문제
 int main()
 {
