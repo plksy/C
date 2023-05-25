@@ -1,0 +1,31 @@
+#include <stdio.h> // 3가지 정수의 입력 받고 곱셈 후, 결과 값 각각의 숫자가 몇번 쓰였는지 알아내는 프로그램
+
+int main(void) {
+
+  int a,b,c;
+  int sum;
+  int count;
+  int number;
+  char t[10] = {0,};
+scanf("%d %d %d", &a, &b, &c);
+
+  sum = a * b * c; // 예시 17037300
+  
+  while(sum > 0){
+    
+    number = sum % 10;
+    t[number]++;
+    sum /= 10;
+
+  }
+  
+for(int i =0; i<=9; i++){
+
+    printf("%d\n", t[i]);
+  
+  }
+
+
+
+  return 0;
+}
